@@ -2,4 +2,12 @@
 
 {% block title %}toutes les recettes{% endblock %}
 
-{% block body %}lorem fg {% endblock %}
+{% block body %}
+    <p>lorem fgj ok je commence a comprendre comment cela marche
+    </p>
+    <ul>
+        <li>
+        <a href="{{ url('recipe.show', {id: 32, slug: 'pate-bolognaise'}) }}">Pâtes bolognaise</a>
+        </li>
+    </ul> 
+{% endblock %}
